@@ -1,14 +1,13 @@
-var alphaArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'r', 'p', 's'],
+var alphaArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'r', 'p', 's', 't', 'u', v', 'w', 'x', 'y', 'z'],
 wins = 0,
 losses = 0,
 guessesLeft = 9,
 guessesSoFar = [],
 alphaPick = alphaArray[Math.floor(Math.random() * alphaArray.length)];
-	console.log(alphaPick);
+console.log(alphaPick);
 
 document.onkeyup = function(event) {
 	var guess = event.key;
-
 
 	if (guessesLeft > 0) {
 		if (guess === alphaPick) {
