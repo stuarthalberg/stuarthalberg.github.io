@@ -1,4 +1,4 @@
-var alphaArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'r', 'p', 's', 't', 'u', v', 'w', 'x', 'y', 'z'],
+var alphaArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'r', 'p', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
 wins = 0,
 losses = 0,
 guessesLeft = 9,
